@@ -70,7 +70,8 @@
        01 PARAM-WRITE.
            02 OPERACAO     PIC X(6).
            02 FICHEIRO     PIC X(20).
-           02 TEXTO        PIC X(150).
+           02 TEXTO        PIC X(160).
+       01 NOVA-VAR         PIC X(10).
 
        PROCEDURE DIVISION USING PARAM-WRITE.
        INICIO.
@@ -113,7 +114,6 @@
                   MOVE ARR-REG-MSTTBL(PTR-MSTTBL) TO REG-MSTTBL
                   &STR MSTTBL,MSTTBL01,GT,[1500],CODTBL,ARGBUS
                   INITIALIZE PTR-MSTTBL
-               END-IF
          END-PERFORM
          .
 
