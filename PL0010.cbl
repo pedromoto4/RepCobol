@@ -71,6 +71,7 @@
            02 OPERACAO     PIC X(6).
            02 FICHEIRO     PIC X(20).
            02 TEXTO        PIC X(160).
+
        01 NOVA-VAR         PIC X(10).
 
        PROCEDURE DIVISION USING PARAM-WRITE.
