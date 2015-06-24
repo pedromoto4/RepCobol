@@ -115,9 +115,6 @@
                   MOVE ARR-REG-MSTTBL(PTR-MSTTBL) TO REG-MSTTBL
                   &STR MSTTBL,MSTTBL01,GT,[1500],CODTBL,ARGBUS
                   INITIALIZE PTR-MSTTBL
-
-               testes
-
          END-PERFORM
          .
 
